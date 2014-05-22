@@ -1,0 +1,25 @@
+body {
+	background-image:url('../imgs/notepadbg.png') ;
+}
+
+h1 {
+	font-family: 'Reenie Beanie', cursive;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-top: 2em;
+}
+
+
+p input {
+	vertical-align: center;
+}
+
+ul {
+	vertical-align: center;
+	list-style: none;
+	padding-right: 3.15em;
+	font-family: 'Coming Soon', cursive;
+}
