@@ -1,3 +1,61 @@
+/*INDEX*/
+.index {
+  text-align: center;
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+.index img {
+  padding: 5px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+.titles {
+  margin: 20px auto;
+  width: 600px;
+  height: 200px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+.titles a{
+  text-decoration: none;
+  color:#C7A557;
+}
+
+.titles h3{
+  text-align: center;
+}
+
+
+#a {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+#b {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  padding-left: 80px;
+
+}
+
+#c {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  padding-left: 120px;
+}
+
+/*LOCATIONS*/
 .container {
   margin: 20px auto;
   width: 600px;

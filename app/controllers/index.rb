@@ -1,9 +1,17 @@
 get '/' do
   # Look in app/views/index.erb
   @dbc = Location.all.map(&:city_name)
+
+  # select and show by location!!
+  @aha_heaven = {}
+  first_5 = Aha.all.shift(5)
+
+  first_5.each do |aha|
+   @aha_heaven[aha[:title]] = aha[:body]
+  end
+
   erb :index
 end
-
 
 
 get '/sf' do

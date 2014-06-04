@@ -1,10 +1,37 @@
-<div class="container">
-  <h1>Welcome to Aha-app</h1>
-  <p>Shoot your enlightenment</p>
+<div class="index">
+  <center>
+    <h1>Ahapp!</h1>
+    <p>shoot and share your enlightenment</p>
 
-<ul id="locations">
-  <li><a href="/sf"><%= @dbc[0] %></a></li> -
-  <li><a href="/ny"><%= @dbc[1] %></a></li> -
-  <li><a href="/chi"><%= @dbc[2] %></a></li>
-</ul>
+    <ul id="locations">
+      <li><a href="/sf"><img src="http://i.imgur.com/uuVgeFN.jpg" /></a></li>
+
+      <li><a href="/ny"><img src="http://i.imgur.com/zE2jcuj.jpg" /></a></li>
+
+      <li><a href="/ny"><img src="http://i.imgur.com/heVcMS3.jpg" /></a></li>
+    </ul>
+  </center>
 </div>
+
+<div class="titles">
+  <h3>Last 5 Aha's</h3>
+  <div id="a">
+    <a href="/sf">San Francisco</a>
+    <% @aha_heaven.each do |k,v| %>
+    <h5><%= k %></h5>
+    <% end %>
+  </div>
+  <div id="b">
+    <a href="/ny">New York</a>
+    <% @aha_heaven.each do |k,v| %>
+    <h5><%= k %></h5>
+    <% end %>
+  </div>
+  <div id="c">
+    <a href="/chi">Chicago</a>
+    <% @aha_heaven.each do |k,v| %>
+    <h5><%= k %></h5>
+    <% end %>
+  </div>
+</div>
+
