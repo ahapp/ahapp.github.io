@@ -1,0 +1,17 @@
+<div class="container">
+  <form action="/sf" method="post">
+    <br>
+    Share your aha:
+    <br><br>
+    <input type="text" name="location_id">
+    <input type="text" name="aha_title">
+    <textarea type="text" name="aha_body"></textarea>
+    <input type="submit" value="Say it!">
+  </form>
+
+  <h1>DBC SF</h1>
+  <h1>Aha's!</h1>
+  <% if @aha %>
+    <p>Thanks for sharing this aha: "<span id="grandma_says"><%= @aha %></span>"</p>
+  <% end %>
+</div>
